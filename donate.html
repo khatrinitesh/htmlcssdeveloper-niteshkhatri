@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML+CSS Template</title>
+
+    <!-- BELOW CSS EXTERNAL LIBRARIES AND CUSTOM -->
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+    <!-- START HEADER -->
+    <div class="topbar_info">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-end">
+                <ul class="list-unstyled list_info m-0">
+                    <li>
+                        <a href="mailto:info@charityplus">
+                            <i class="fa fa-envelope"></i>
+                            info@charityplus
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+918857665660">
+                            <i class="fa fa-phone"></i>
+                            +91 8857 665 660
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" class="img-fluid"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CAUSES</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    EVENTS
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
+                    <li><a class="dropdown-item" href="#"> Dropdown item 2 &raquo </a>
+                         <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="">Submenu item 1</a></li>
+                          <li><a class="dropdown-item" href="">Submenu item 2</a></li>
+                          <li><a class="dropdown-item" href="">Submenu item 4</a></li>
+                       </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
+                    <li><a class="dropdown-item" href="#"> Dropdown item 4 </a>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="donate.html">PAGES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- END HEADER -->
+
+    <!-- START BANNER -->
+    <section class="banner_content"></section>
+    <!-- END BANNER -->
+
+    <!-- START DONATE CONTENT -->
+    <section class="donate_content section_padding">
+        <div class="container">
+            <div class="inner_donate">
+                <div class="row">
+                    <div class="col-md-12 col-lg-5 gridcol">
+                        <div class="box_donate">
+                            <h3 class="subtitle">Choose amount</h3>
+                            <div class="row">
+                                <div class="col-md-4 col-lg-4 inner_col">
+                                    <div class="box_inner">
+                                        <i class="fa fa-check d-block"></i>
+                                        <span class="txt">100 USD</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 inner_col">
+                                    <div class="box_inner">
+                                        <i class="fa fa-check d-block"></i>
+                                        <span class="txt">200 USD</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 inner_col">
+                                    <div class="box_inner">
+                                        <i class="fa fa-check d-block"></i>
+                                        <span class="txt">300 USD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-2 gridcol">
+                        <span class="divider"></span>
+                        <span class="or_block">OR</span>
+                    </div>
+                    <div class="col-md-12 col-lg-5 gridcol">
+                        <div class="box_donate">
+                            <h3 class="subtitle">Enter your amount</h3>
+                            <input type="text" class="form-control" placeholder="ENTER YOUR AMOUNT HERE">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!-- END DONATE CONTENT -->
+
+    <!-- START DONOR INFORMATION -->
+    <section class="donor_content section_padding">
+        <div class="container">
+            <div class="title_block text-center mb-5">
+                <h2 class="sectiontitle sectionada">Donor information</h2>
+            </div>
+            <form class="fill_form">
+                <div class="row">
+                    <div class="col-md-4 col-lg-4 gridcol">
+                        <input class="form-control" placeholder="FIRST NAME"/>
+                    </div>
+                    <div class="col-md-4 col-lg-4 gridcol">
+                        <input class="form-control" placeholder="LAST NAME"/>
+                    </div>
+                    <div class="col-md-4 col-lg-4 gridcol">
+                        <input class="form-control" placeholder="PHONE NUMBER"/>
+                    </div>
+                    <div class="col-md-4 col-lg-4 gridcol">
+                        <input class="form-control" placeholder="occupation"/>
+                    </div>
+                    <div class="col-md-4 col-lg-4 gridcol">
+                        <input class="form-control" placeholder="Email"/>
+                    </div>
+                    <div class="col-md-4 col-lg-4 gridcol">
+                        <input class="form-control" placeholder="employer"/>
+                    </div>
+                    <div class="col-md-4 col-lg-4 gridcol">
+                        <input class="form-control" placeholder="address"/>
+                    </div>
+                    <div class="col-md-4 col-lg-4 gridcol">
+                        <input class="form-control" placeholder=""/>
+                    </div>
+                    <div class="col-md-4 col-lg-4 gridcol">
+                        <input class="form-control" placeholder=""/>
+                    </div>
+                    <div class="col-md-4 col-lg-4 gridcol">
+                        <input class="form-control" placeholder="City"/>
+                    </div>
+                    <div class="col-md-4 col-lg-4 gridcol">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>State</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 col-lg-4 gridcol">
+                        <input class="form-control" placeholder="post code"/>
+                    </div>
+                    <div class="col-md-12 col-lg-12 gridcol">
+                        <textarea rows="20"  class="form-control field_txtarea" placeholder="short description about yourself"></textarea>
+                    </div>
+                </div>
+                <div class="my-3 text-center">
+                    <button class="link_primary" type="submit">SUBMIT NOW</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- END DONOR INFORMATION -->
+
+    <!-- START FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="title_block d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <h3 class="headtitle">Explore More</h3>
+                <span class="txt_desc">Copyright © 2016 - Charity plus</span>
+            </div>
+            <div class="info_footer">
+                <div class="row">
+                    <div class="col-md-5 col-xl-5 col-lg-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="box_foot">
+                                    <h4 class="subtitle">QUICK LINKS</h4>
+                                    <ul class="list-unstyled list_info">
+                                        <li>
+                                            <a href="#">HOME</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">ABOUT US</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">CAUSES</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">EVENTS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">PAGES</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">CONTACT</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box_foot">
+                                    <h4 class="subtitle">CAUSES</h4>
+                                    <ul class="list-unstyled list_info">
+                                        <li>
+                                            <a href="#">EDUCATION</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">FOOD</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">AWARNESS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">WATER</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">HEALTH</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">CHILDREN AID</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">SENIOR</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-7 col-xl-7 col-lg-7">
+                        <div class="box_foot">
+                            <h4 class="subtitle">NEWS LETTER</h4>
+                            <div class="form_subscribe">
+                                <input type="text" class="form-control" placeholder="Email Address">
+                                <button class="btn btn-primary">SUBSCRIBE NOW</button>
+                            </div>
+                            <div class="address_block">
+                                <h4 class="subtitle">ADDRESS</h4>
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <span class="txt_add mb-2 d-block">Second street nagar <br/>indira complex, 86695</span>
+                                        <ul class="list-unstyled list_socialmedia d-flex">
+                                            <li>
+                                                <a href="" target="_blank">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" target="_blank">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" target="_blank">
+                                                    <i class="fa fa-google-plus"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <ul class="list-unstyled list_contact">
+                                            <li>
+                                                <span class="txt_contact">Email : info@charityplus</span>
+                                            </li>
+                                            <li>
+                                                <span class="txt_contact">Phone : +91 8857 665 660</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+    
+
+
+    <!-- BELOW JS EXTERNAL LIBRARIES AND CUSTOM -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

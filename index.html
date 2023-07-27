@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML+CSS Template</title>
+
+    <!-- BELOW CSS EXTERNAL LIBRARIES AND CUSTOM -->
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+    <!-- START HEADER -->
+    <div class="topbar_info">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-end">
+                <ul class="list-unstyled list_info m-0">
+                    <li>
+                        <a href="mailto:info@charityplus">
+                            <i class="fa fa-envelope"></i>
+                            info@charityplus
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+918857665660">
+                            <i class="fa fa-phone"></i>
+                            +91 8857 665 660
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" class="img-fluid"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CAUSES</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  EVENTS
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
+                    <li><a class="dropdown-item" href="#"> Dropdown item 2 &raquo </a>
+                         <ul class="submenu dropdown-menu">
+                          <li><a class="dropdown-item" href="">Submenu item 1</a></li>
+                          <li><a class="dropdown-item" href="">Submenu item 2</a></li>
+                          <li><a class="dropdown-item" href="">Submenu item 4</a></li>
+                       </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
+                    <li><a class="dropdown-item" href="#"> Dropdown item 4 </a>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="donate.html">PAGES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- END HEADER -->
+
+    <!-- START BANNER SLIDESHOW -->
+    <section class="banner_slideshow">
+        <div class="container">
+            <div class="banner_titleblock text-center">
+                <h2 class="banner_headtitle">Give a helping hand</h2> 
+                <p class="desc">to those who need it</p>
+                <a href="javascript:void()" class="link_banner">DONATE NOW</a>
+            </div>
+            <div class="screenshot_slider owl-carousel">
+                <div class="item">
+                    <img src="https://plus.unsplash.com/premium_photo-1690164161383-f5ff30a790bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="" title="">
+                    <div class="caption">
+                        <h4 class="title_slider">Featured causes</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://images.unsplash.com/photo-1690375636915-29d19feae92f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="" title="">
+                    <div class="caption">
+                        <h4 class="title_slider">Featured causes</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://images.unsplash.com/photo-1690261003258-0bbe37fa0209?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="" title="">
+                    <div class="caption">
+                        <h4 class="title_slider">Featured causes</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://images.unsplash.com/photo-1690207714547-6e76b0e61b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="" title="">
+                    <div class="caption">
+                        <h4 class="title_slider">Featured causes</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://images.unsplash.com/photo-1690441426989-0cf9f866a6f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" title="">
+                    <div class="caption">
+                        <h4 class="title_slider">Featured causes</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://images.unsplash.com/photo-1676902684032-a2e4436d553f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" title="">
+                    <div class="caption">
+                        <h4 class="title_slider">Featured causes</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://i.ibb.co/xqkdFXW/screen7.jpg" alt="" title="">
+                    <div class="caption">
+                        <h4 class="title_slider">Featured causes</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://i.ibb.co/7nVfZR8/screen2.jpg" alt="" title="">
+                    <div class="caption">
+                        <h4 class="title_slider">Featured causes</h4>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </section>
+    <!-- END BANNER SLIDESHOW -->
+
+        <!-- START CAUSE LIST -->
+        <section class="cause_list section_padding">
+            <div class="container">
+                <div class="title_block text-center mb-5">
+                    <h2 class="headtitle">Cause List</h2>   
+                    <span class="txt_divider">WE NEED YOUR HELP TO HELP OTHERS</span>
+                </div>
+                <div class="inner_cause">
+                    <div class="row">
+                            <div class="col-md-4 gridcol">
+                                <div class="box_cause">
+                                    <h3 class="subtitle text-center">Food</h3>
+                                    <div class="progress_block">
+                                        <div class="circle_percent" data-percent="75">
+                                            <div class="circle_inner">
+                                                <div class="round_per"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="list-unstyled list_cause d-flex align-items-center">
+                                        <li>
+                                            <span class="txt_word d-block">RAISED</span>
+                                            <span class="txt_val d-block">$800</span>
+                                        </li>
+                                        <li>
+                                            <span class="txt_word d-block">GOAL</span>
+                                            <span class="txt_val d-block txt_color_green">$1200</span>
+                                        </li>
+                                    </ul>
+                                    <p class="desc text-center">Lorem Ipsum is simply dummy 
+                                    of the printing and typesetting industry 
+                                    Lorem Ipsum.</p>
+                                    <div class="text-center">
+                                        <a href="javascript:void()" class="link_primary">DONATE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 gridcol">
+                                <div class="box_cause">
+                                    <h3 class="subtitle text-center">Health</h3>
+                                    <div class="progress_block">
+                                        <div class="circle_percent" data-percent="20">
+                                            <div class="circle_inner">
+                                                <div class="round_per"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="list-unstyled list_cause d-flex align-items-center">
+                                        <li>
+                                            <span class="txt_word d-block">RAISED</span>
+                                            <span class="txt_val d-block">$600</span>
+                                        </li>
+                                        <li>
+                                            <span class="txt_word d-block">GOAL</span>
+                                            <span class="txt_val d-block txt_color_green">$3000</span>
+                                        </li>
+                                    </ul>
+                                    <p class="desc text-center">Lorem Ipsum is simply dummy 
+                                    of the printing and typesetting industry 
+                                    Lorem Ipsum.</p>
+                                    <div class="text-center">
+                                        <a href="javascript:void()" class="link_primary">DONATE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 gridcol">
+                                <div class="box_cause">
+                                    <h3 class="subtitle text-center">Water</h3>
+                                    <div class="progress_block">
+                                        <div class="circle_percent" data-percent="75">
+                                            <div class="circle_inner">
+                                                <div class="round_per"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="list-unstyled list_cause d-flex align-items-center">
+                                        <li>
+                                            <span class="txt_word d-block">RAISED</span>
+                                            <span class="txt_val d-block">$1200</span>
+                                        </li>
+                                        <li>
+                                            <span class="txt_word d-block">GOAL</span>
+                                            <span class="txt_val d-block txt_color_green">$2800</span>
+                                        </li>
+                                    </ul>
+                                    <p class="desc text-center">Lorem Ipsum is simply dummy 
+                                    of the printing and typesetting industry 
+                                    Lorem Ipsum.</p>
+                                    <div class="text-center">
+                                        <a href="javascript:void()" class="link_primary">DONATE NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    <!-- END CAUSE LIST -->
+
+    <!-- START DONATORS -->
+    <section class="donators_content section_padding">
+        <div class="container">
+            <div class="title_block text-center mb-5">
+                <h2 class="headtitle">Donators</h2>   
+                <span class="txt_divider">Help us reach our goal Donate now </span>
+            </div>
+            <div class="inner_donators">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 gridcol">
+                        <div class="box_donators">
+                            <h3 class="subtitle text-center">Featured Donators</h3>
+                            <div class="row">
+                                <div class="col-md-4 inner_col">
+                                    <div class="box_img">
+                                        <img src="https://placehold.co/134x140" alt="" class="img_fit img-fluid mb-2">
+                                        <div class="caption mt-3">
+                                            <h4 class="title_caption">NAME HERE</h4>
+                                            <p class="txt_word_val">
+                                                <span class="txt_word">DONATED</span>
+                                                <span class="txt_val">$800</span>
+                                            </p>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-4 inner_col">
+                                    <div class="box_img">
+                                        <img src="https://placehold.co/134x140" alt="" class="img_fit img-fluid mb-2">
+                                        <div class="caption mt-3">
+                                            <h4 class="title_caption">NAME HERE</h4>
+                                            <p class="txt_word_val">
+                                                <span class="txt_word">DONATED</span>
+                                                <span class="txt_val">$800</span>
+                                            </p>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-4 inner_col">
+                                    <div class="box_img">
+                                        <img src="https://placehold.co/134x140" alt="" class="img_fit img-fluid mb-2">
+                                        <div class="caption mt-3">
+                                            <h4 class="title_caption">NAME HERE</h4>
+                                            <p class="txt_word_val">
+                                                <span class="txt_word">DONATED</span>
+                                                <span class="txt_val">$800</span>
+                                            </p>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 gridcol">
+                        <div class="box_donators">
+                            <h3 class="subtitle text-center">Donate Now</h3>
+                            <div class="range_block">
+                                <div class="slider">
+                                    <span class="min-value txt_value">
+                                        <span class="txt_val">100</span>
+                                    </span>
+                                    <div class="range">
+                                        <input type="range" name="date" id="dae1" min="30" max="1000" step="5" value="50" required>
+                                        <span class="current-value">
+                                            <span class="txt_val">$150,000,00</span>
+                                        </span>
+                                    </div>
+                                    <span class="max-value txt_value">1000</span>
+                                </div>                        
+                            </div>
+                            <div class="duration_block d-flex flex-column flex-md-row justify-content-between">
+                                <span class="txt_word">Ends</span>
+                                <div class="timer_btn_block">
+                                    <div id="timer" class="timer_block">
+                                        <div id="days" class="time_block"></div>
+                                        <div id="hours" class="time_block"></div>
+                                        <div id="minutes" class="time_block"></div>
+                                        <div id="seconds" class="time_block"></div>
+                                    </div>
+                                    <a href="javascript:void(0)" class="link_primary">DONATE NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- END DONATORS -->
+
+    <!-- START ABOUT US  -->
+    <section class="about_content section_padding">
+        <div class="container">
+            <div class="row_about">
+                <div class="row">
+                    <div class="col-md-4 gridcol">
+                        <div class="thumbnail">
+                            <img src="https://images.unsplash.com/photo-1690395782424-81ae275080aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img-fluid"/>
+                        </div>
+                    </div>
+                    <div class="col-md-8 gridcol">
+                        <h2 class="sectiontitle">About Us</h2>
+                        <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived</p>
+                        <a href="javascript:void(0)" class="link_primary">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider_content">
+                <div class="row">
+                    <div class="col-md-4 gridcol">&nbsp;</div>
+                    <div class="col-md-7 gridcol">
+                        <h2 class="sectiontitle txt_color_white">Partners</h2>
+                        <div class="owl-carousel owl-theme slider_carousel">
+                            <div class="item">
+                                <img src="https://placehold.co/165x103" class="img-fluid"/>
+                            </div>
+                            <div class="item">
+                                <img src="https://placehold.co/165x103" class="img-fluid"/>
+                            </div>
+                            <div class="item">
+                                <img src="https://placehold.co/165x103" class="img-fluid"/>
+                            </div>
+                            <div class="item">
+                                <img src="https://placehold.co/165x103" class="img-fluid"/>
+                            </div>
+                            <div class="item">
+                                <img src="https://placehold.co/165x103" class="img-fluid"/>
+                            </div>
+                            <div class="item">
+                                <img src="https://placehold.co/165x103" class="img-fluid"/>
+                            </div>
+                            <div class="item">
+                                <img src="https://placehold.co/165x103" class="img-fluid"/>
+                            </div>
+                            <div class="item">
+                                <img src="https://placehold.co/165x103" class="img-fluid"/>
+                            </div>
+                            <div class="item">
+                                <img src="https://placehold.co/165x103" class="img-fluid"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END ABOUT US  -->
+
+    <!-- START EVENTS -->
+    <section class="events_content section_padding">
+        <div class="container">
+            <h2 class="sectiontitle">Our Events</h2>
+            <div class="inner_events">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 col-xl-6 gridcol">
+                        <div class="left_events">
+                            <ul class="list-unstyled list_events mb-5">
+                                <li>
+                                    <div class="box_events">
+                                        <h3 class="subtitle">Demo Event Heading</h3>
+                                        <p class="txt_date">February, 10, 2016</p>
+                                        <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="box_events">
+                                        <h3 class="subtitle">Event Heading</h3>
+                                        <p class="txt_date">February, 10, 2016</p>
+                                        <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="javascript:void(0)" class="link_primary">VIEW FULL EVENT</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 col-xl-6 gridcol">
+                        <div class="right_events">
+                            <div class="heading_block">
+                                <div class="date_block">
+                                    <span class="txt_number">10</span>
+                                    <span class="txt_month">feb-16</span>
+                                </div>
+                                <div class="title_block">
+                                    <h4 class="subtitle">Event Heading</h4>
+                                    <p class="desc">Incididunt eiusmod qui voluptate ad. Aliquip et excepteur ullamco aliquip velit deserunt irure mollit elit. Deserunt deserunt fugiat dolore duis est. Et ex do nulla veniam aliquip id. Veniam sunt sit nulla sint. Quis laboris Lorem non reprehenderit ad officia irure excepteur consectetur voluptate occaecat aliqua aliqua.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 inner_col">
+                                    <div class="img_block">
+                                        <div class="date_block">
+                                            <span class="txt_number">12</span>
+                                            <span class="txt_month">feb-16</span>
+                                        </div>
+                                        <div class="title_block text-center">
+                                            <h4 class="subtitle mb-1">IMAGE</h4>
+                                            <p class="desc">263x162</p>
+                                            <span class="event_heading">Event Heading</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 inner_col">
+                                    <div class="img_block">
+                                        <div class="date_block">
+                                            <span class="txt_number">13</span>
+                                            <span class="txt_month">263x162</span>
+                                        </div>
+                                        <div class="title_block text-center">
+                                            <h4 class="subtitle  mb-1">IMAGE</h4>
+                                            <p class="desc">263x162</p>
+                                            <span class="event_heading">Event Heading</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END EVENTS -->
+
+    <!-- START FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="title_block d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <h3 class="headtitle">Explore More</h3>
+                <span class="txt_desc">Copyright © 2016 - Charity plus</span>
+            </div>
+            <div class="info_footer">
+                <div class="row">
+                    <div class="col-md-5 col-xl-5 col-lg-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="box_foot">
+                                    <h4 class="subtitle">QUICK LINKS</h4>
+                                    <ul class="list-unstyled list_info">
+                                        <li>
+                                            <a href="#">HOME</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">ABOUT US</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">CAUSES</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">EVENTS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">PAGES</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">CONTACT</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box_foot">
+                                    <h4 class="subtitle">CAUSES</h4>
+                                    <ul class="list-unstyled list_info">
+                                        <li>
+                                            <a href="#">EDUCATION</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">FOOD</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">AWARNESS</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">WATER</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">HEALTH</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">CHILDREN AID</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">SENIOR</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-7 col-xl-7 col-lg-7">
+                        <div class="box_foot">
+                            <h4 class="subtitle">NEWS LETTER</h4>
+                            <div class="form_subscribe">
+                                <input type="text" class="form-control" placeholder="Email Address">
+                                <button class="btn btn-primary">SUBSCRIBE NOW</button>
+                            </div>
+                            <div class="address_block">
+                                <h4 class="subtitle">ADDRESS</h4>
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <span class="txt_add mb-2 d-block">Second street nagar <br/>indira complex, 86695</span>
+                                        <ul class="list-unstyled list_socialmedia d-flex">
+                                            <li>
+                                                <a href="" target="_blank">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" target="_blank">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="" target="_blank">
+                                                    <i class="fa fa-google-plus"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <ul class="list-unstyled list_contact">
+                                            <li>
+                                                <span class="txt_contact">Email : info@charityplus</span>
+                                            </li>
+                                            <li>
+                                                <span class="txt_contact">Phone : +91 8857 665 660</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+    
+
+
+    <!-- BELOW JS EXTERNAL LIBRARIES AND CUSTOM -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
